@@ -4,6 +4,14 @@
  */
 public class InOrder {
 	public static void main (String[] args) {
-		//// Write your code here
+	int minRandomNum = (int) (Math.random() * 11); //generates the first number
+	System.out.print(minRandomNum);
+	int nextRandom = (int) (Math.random() * 11); //generates the next number
+	while (nextRandom >= minRandomNum){
+	System.out.print(" " +nextRandom);
+	minRandomNum = nextRandom;
+	nextRandom = (int) (Math.random() * 11);
+	//System.out.print(" " +nextRandom); 
+	}
 	}
 }
