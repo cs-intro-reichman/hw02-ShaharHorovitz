@@ -37,7 +37,6 @@ public class OneOfEachStats {
 		count++;
 	
 	}
-	System.out.println("number of kids in " + i + "familiy " + count);
 	avgOfKids += (double) count;
 	//System.out,println("");
 	if (count ==2){
