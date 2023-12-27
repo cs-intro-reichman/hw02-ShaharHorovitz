@@ -11,6 +11,8 @@ public class OneOfEachStats {
 	public static void main (String[] args) {
 	int T = Integer.parseInt(args[0]); //number of expiremnts
 	int seed = Integer.parseInt(args[1]);
+	int T = Integer.parseInt(args[0]); //number of expiremnts
+	int seed = Integer.parseInt(args[1]);
 	Random random = new Random(seed);
 	int count2 = 0; 
 	int count3 = 0; 
@@ -38,21 +40,21 @@ public class OneOfEachStats {
 	if (count ==2){
 			count2++;
 		}
-	if (count ==3){
+	else if (count ==3){
 			count3++;
 		}
-	if(count >= 4) {
+	else if(count >= 4) {
 			count4ormore++; 
 		}
 	}
 	int mostCommon = 0;
-	if(count2 > count3 && count2>count4ormore){
+	if(count3 > count2){
 		mostCommon = 2; 
 	}
-	if (count3 >count2 && count3 > count4ormore){
+	else if (count3 >count2 && count3 > count4ormore){
 		mostCommon = 3; 
 	}
-	if (count4ormore >count2 && count4ormore >count3){
+	else if (count4ormore >count2 && count4ormore >count3){
 		mostCommon = 4; 
 	}
 	System.out.println("Average: " +avgOfKids/T + " to get at least one of each gender.");
