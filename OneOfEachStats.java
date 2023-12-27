@@ -51,13 +51,13 @@ public class OneOfEachStats {
 	}
 	//out of for
 	int mostCommon = 0;
-	if(count3 < count2 || count4ormore< count2){
+	if(count2 > count3 && count2 > count4ormore){
 		mostCommon = 2; 
 	}
-	if (count3 >count2 && count3 > count4ormore){
+	else if (count3 >count2 && count3 > count4ormore){
 		mostCommon = 3; 
 	}
-	else {
+	else if{
 		mostCommon = 4;
 	}
 	
