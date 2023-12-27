@@ -51,7 +51,7 @@ public class OneOfEachStats {
 	}
 	//out of for
 	int mostCommon = 0;
-	if(count3 < count2){
+	if(count3 < count2 || count4< count2){
 		mostCommon = 2; 
 	}
 	if (count3 >count2 && count3 > count4ormore){
@@ -62,9 +62,9 @@ public class OneOfEachStats {
 	}
 	
 	System.out.println("Average: " +avgOfKids/T + " to get at least one of each gender.");
-	System.out.println("Number of families with 2 children: " + count2);
-	System.out.println("Number of families with 3 children: " + count3);
-	System.out.println("Number of families with 4 or more children: " + count4ormore);
+	System.out.println("Number of families with 2 children: " + count2 + ".");
+	System.out.println("Number of families with 3 children: " + count3+ ".");
+	System.out.println("Number of families with 4 or more children: " + count4ormore+ ".");
 	System.out.println("The most common number of children is " + mostCommon);
 
 }
