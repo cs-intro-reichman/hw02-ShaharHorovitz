@@ -8,9 +8,7 @@ import java.util.Random;
  *  Example usage: % java OneOfEachStats 1000 1
  */
 public class OneOfEachStats {
-	public static void main (String[] args) {
-	int T = Integer.parseInt(args[0]); //number of expiremnts
-	int seed = Integer.parseInt(args[1]);
+	public static void main (String[] args) { 
 	int T = Integer.parseInt(args[0]); //number of expiremnts
 	int seed = Integer.parseInt(args[1]);
 	Random random = new Random(seed);
