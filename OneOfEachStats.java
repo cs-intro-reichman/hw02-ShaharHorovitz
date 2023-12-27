@@ -57,7 +57,7 @@ public class OneOfEachStats {
 	else if (count3 >count2 && count3 > count4ormore){
 		mostCommon = 3; 
 	}
-	else if{
+	else {
 		mostCommon = 4;
 	}
 	
