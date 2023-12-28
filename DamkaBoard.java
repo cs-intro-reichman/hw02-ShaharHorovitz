@@ -5,7 +5,7 @@ public class DamkaBoard {
 	public static void main(String[] args) {
 	int num = Integer.parseInt(args[0]); 
 	for(int i=num-1; i>=0; i--){
-		for(int s = 0;s<num;s++){
+		for(int s = 1;s<=num;s++){
 		if (i%2==0){
 		System.out.print("* ");
 		}
