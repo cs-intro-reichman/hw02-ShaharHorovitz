@@ -8,13 +8,13 @@ public class DamkaBoard {
 	
 	}
 	for(int s = 0;s<num;s++){
-		if (i%2==0)
+		if (i%2==0){
 		System.out.print("* ");
+		}
 		else {
 			System.out.print(" *");
 		}
 	}
 	System.out.println();
 	}
-}
 }
