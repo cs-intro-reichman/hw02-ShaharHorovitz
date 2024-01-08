@@ -5,7 +5,7 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-	boolean IsGiral = false;
+	boolean IsGiral = false; // TODO: the naming convention is to start the variable name with lower case
 	boolean IsBoy = false; 
 	double r = Math.random();
 	int count = 0;

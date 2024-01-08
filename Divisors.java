@@ -6,9 +6,11 @@ public class Divisors {
 	int number = Integer.parseInt(args[0]);
 	//System.out.println("the number is: " + number);
 	for (int i=1; i<=number; i++){
+		// TODO: ident to the code below right
 	if(number%i==0){
 		System.out.println(i);
 	}
+		// 
 	}
 	}
 }

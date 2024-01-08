@@ -3,6 +3,7 @@
  *  as long as they form a non-decreasing sequence.
  */
 public class InOrder {
+	// TODO no identations!!!!!
 	public static void main (String[] args) {
 	int minRandomNum = (int) (Math.random() * 11); //generates the first number
 	System.out.print(minRandomNum);
